@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 name: CI
 on: 
   push:
@@ -22,3 +23,6 @@ jobs:
     - name: Deploy static site to S3 bucket
       run: aws s3 sync ./lchopra/ s3://lchopraltd.com --delete
       # --delete flag will remove any file in the s3 that are not on the "thefoldertodeploy" folder
+=======
+
+>>>>>>> 1a730659008a3e0a4df243ef84a8dacd89459450
